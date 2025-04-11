@@ -1,0 +1,27 @@
+# ⛔ Archivos de configuración con claves
+airtable_config.py
+
+# Archivos de datos locales (si en algún momento volvés a usar CSVs)
+*.csv
+
+# Entornos virtuales (por si usás uno)
+.venv/
+venv/
+env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Python __pycache__
+__pycache__/
+*.py[cod]
+
+# Archivos de logs
+*.log
+
+# Streamlit secrets local (si lo usás localmente en lugar de Streamlit Cloud)
+.streamlit/secrets.toml
+
+# Archivos temporales
+*.tmp
